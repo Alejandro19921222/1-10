@@ -187,6 +187,7 @@ main {
 .pagination {
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .pagination p {
@@ -208,4 +209,56 @@ footer {
 }
 .footer-text {
   color: #fff;
+}
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  .nav-list {
+    width: 100%;
+  }
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .social {
+    display: none;
+  }
+  main {
+    width: 100%;
+    display: block;
+  }
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+  .blog-box {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .blog-image {
+    width: 49%;
+  }
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+  .sidebar {
+    width: 100%;
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  .blog {
+    width: 100%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
 }
